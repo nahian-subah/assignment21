@@ -1,0 +1,40 @@
+input:read-write{
+    background-color: green;
+}
+input:required{
+    background-color: red;
+}
+input:read-only{
+    background-color: blue;
+}
+.main div{
+    display:none;
+}
+.main div:target{
+    display:block;
+    background-color: blueviolet;
+    color: beige;
+    padding: 10px;
+}
+p::first-line{
+    color: aqua;
+}
+p::first-letter{
+    font-size: 30px;
+    color: brown;
+}
+span::first-line{
+    color: crimson;
+}
+p.un::first-letter{
+    font-weight: bold;
+    font-size: xx-large;
+    color: darkred;
+}
+h1::before{
+   content: "I am before";
+}
+h1::after{
+    content: "I am After";
+    color: aqua;
+}
